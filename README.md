@@ -16,4 +16,4 @@ Follow this YouTube Tutorial by [NVIDIA Developer](https://www.youtube.com/watch
 Follow this [AWS tutorial](https://aws.amazon.com/tw/getting-started/tutorials/backup-to-s3-cli/), which shows how to make a unigque AWS access key to each device, and other controll command(download/upload).
 
 ### 3. Save camera image with timestamp in filename.
-Revise demo code(detectnet-camera). If detections Class-ID is 17(cat) and it is the first detection within this sec, then dave image with timestamp and upload it.
+Revise demo code(detectnet-camera). If detections Class-ID is 17(cat) and it is the first detection within this sec, then save image with timestamp and upload it.
