@@ -17,18 +17,18 @@ Firstly, we need to configure AWS CLI configuration. Follow this [AWS tutorial](
 
 Revise demo code(detectnet-camera). If detections Class-ID is 17(cat) and it is the first detection within this sec, then save image with timestamp and upload it to AWS S3.
 
-'''
+```python
 python detectnet-camera_cat.py
-'''
+```
 
 ### 3. Download All Image from AWS S3 and parse filename into a csv file
 Use this command to batch download all files in AWS S3.
-'''
+```python
 aws s3 sync s3://hellocat .
-'''
+```
 Use this command to parse filename into a csv file.
 
-'''
+```python
 python extract_filename_202004291000.py
-'''
+```
 
