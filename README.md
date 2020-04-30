@@ -7,6 +7,7 @@ This project is able to record these activities and send detected pictures to AW
 1. Set up Jetson Nano Environment
 2. Save camera image naming in timestamp and upload to AWS S3 using AWS CLI.
 3. Download All Image from AWS S3 and parse filename into a csv file
+4. Use plotly tool to visualize result
 
 ## Demo Steps
 ### 1. Set up Jetson Nano Environment
@@ -31,4 +32,8 @@ Use this command to parse filename into a csv file.
 ```python
 python extract_filename_202004291000.py
 ```
-
+### 4. Use plotly tool to visualize result
+x axis is timestamp
+```python
+python plotly_visualizer_202004301700.py
+```
