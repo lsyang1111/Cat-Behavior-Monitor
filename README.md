@@ -23,7 +23,7 @@ python detectnet-camera_cat.py
 ```
 
 ### 3. Download All Image from AWS S3 and parse filename into a csv file
-Use this command to batch download all files in AWS S3.
+Use this command to batch download all files from AWS S3 to local directory.
 ```python
 aws s3 sync s3://hellocat .
 ```
